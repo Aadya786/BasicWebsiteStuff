@@ -1,13 +1,58 @@
 <!DOCTYPE html>
-<html>
-    <head>
-       <link rel="stylesheet" href="style.css"/> 
-    </head> 
-    <body>
-        <h1>Hey! Welcome to my personal site!</h1>
-        <p>Hello I'm Aadya, I've made many personal websites but have none posted so this'll be the first!</p>
-        <img
-        src="https://pettownsendvet.com/wp-content/uploads/2023/01/iStock-1052880600.jpg"
-        />
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">MyPortfolio</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Alex</span></h1>
+            <p>A passionate creator, student, and developer.</p>
+            <a href="#contact" class="btn">Get In Touch</a>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Welcome to my corner of the internet! I love learning new technologies, working on creative projects, and solving interesting problems. When I'm not coding or studying, you can usually find me reading, gaming, or exploring outdoors.</p>
+    </section>
+
+    <section id="skills" class="dark-bg">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">HTML & CSS</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">Graphic Design</div>
+                <div class="skill-card">Problem Solving</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <p>Want to collaborate or just say hi? Drop me a message!</p>
+        <a href="mailto:your.email@example.com" class="btn contact-btn">Email Me</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Alex. Built from scratch.</p>
+    </footer>
+
+</body>
 </html>
