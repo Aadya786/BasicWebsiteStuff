@@ -28,7 +28,7 @@ header {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #2ecc71; /* Changed to Green */
+    color: #1e7e34; /* Darker Green */
 }
 
 nav ul {
@@ -48,13 +48,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #2ecc71; /* Changed to Green */
+    color: #1e7e34; /* Darker Green */
 }
 
 /* Hero Section */
 .hero {
-    /* Updated gradient: Deep Tech Green to Light Teal/Mint */
-    background: linear-gradient(135deg, #27ae60 0%, #50e3c2 100%);
+    /* Updated gradient: Deep Forest Green to a sleek dark teal/pine mix */
+    background: linear-gradient(135deg, #145a32 0%, #1e7e34 100%);
     color: #fff;
     height: 60vh;
     display: flex;
@@ -84,7 +84,7 @@ nav ul li a:hover {
 .btn {
     display: inline-block;
     background-color: #fff;
-    color: #27ae60; /* Changed to Green */
+    color: #145a32; /* Darkest Green for text visibility */
     padding: 10px 24px;
     text-decoration: none;
     border-radius: 25px;
@@ -94,17 +94,17 @@ nav ul li a:hover {
 
 .btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 .contact-btn {
-    background-color: #2ecc71; /* Changed to Green */
+    background-color: #1e7e34; /* Darker Green */
     color: #fff;
     margin-top: 15px;
 }
 
 .contact-btn:hover {
-    background-color: #27ae60; /* Darker green on hover */
+    background-color: #145a32; /* Even darker green on hover */
 }
 
 /* Layout Containers */
@@ -142,7 +142,7 @@ nav ul li a:hover {
 
 .skill-card:hover {
     transform: translateY(-5px);
-    border-bottom: 3px solid #2ecc71; /* Added a subtle green accent on hover */
+    border-bottom: 3px solid #1e7e34; /* Darker green accent line */
 }
 
 /* Footer */
