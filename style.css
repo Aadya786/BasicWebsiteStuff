@@ -28,7 +28,7 @@ header {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #4a90e2;
+    color: #2ecc71; /* Changed to Green */
 }
 
 nav ul {
@@ -48,12 +48,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #4a90e2;
+    color: #2ecc71; /* Changed to Green */
 }
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #4a90e2 0%, #50e3c2 100%);
+    /* Updated gradient: Deep Tech Green to Light Teal/Mint */
+    background: linear-gradient(135deg, #27ae60 0%, #50e3c2 100%);
     color: #fff;
     height: 60vh;
     display: flex;
@@ -83,7 +84,7 @@ nav ul li a:hover {
 .btn {
     display: inline-block;
     background-color: #fff;
-    color: #4a90e2;
+    color: #27ae60; /* Changed to Green */
     padding: 10px 24px;
     text-decoration: none;
     border-radius: 25px;
@@ -97,13 +98,13 @@ nav ul li a:hover {
 }
 
 .contact-btn {
-    background-color: #4a90e2;
+    background-color: #2ecc71; /* Changed to Green */
     color: #fff;
     margin-top: 15px;
 }
 
 .contact-btn:hover {
-    background-color: #357abd;
+    background-color: #27ae60; /* Darker green on hover */
 }
 
 /* Layout Containers */
@@ -141,6 +142,7 @@ nav ul li a:hover {
 
 .skill-card:hover {
     transform: translateY(-5px);
+    border-bottom: 3px solid #2ecc71; /* Added a subtle green accent on hover */
 }
 
 /* Footer */
