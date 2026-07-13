@@ -12,5 +12,18 @@ This is the repository for my personal website, built from scratch using HTML an
 - **HTML:** For the page structure and semantic layout.
 - **CSS:** For custom styling, flexbox/grid alignments, and button animations.
 
+## View My Live Page At:
+https://aadya786.github.io/BasicWebsiteStuff/
+
+
+
+
+
+
+
+
+
+
+
 
 
