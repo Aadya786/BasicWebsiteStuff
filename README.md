@@ -11,3 +11,6 @@ This is the repository for my personal website, built from scratch using HTML an
 ## Tech Stack
 - **HTML:** For the page structure and semantic layout.
 - **CSS:** For custom styling, flexbox/grid alignments, and button animations.
+
+
+
